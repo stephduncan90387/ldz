@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelectorAll(".accordeon-item");e&&e.forEach(function(e){e.addEventListener("click",function(){var c=document.querySelectorAll(".accordeon-item.active");e.classList.contains("active")?e.classList.remove("active"):e.classList.add("active"),c&&c.forEach(function(e){e.classList.remove("active")})})})});

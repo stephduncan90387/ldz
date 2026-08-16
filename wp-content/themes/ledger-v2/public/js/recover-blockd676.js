@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var e=new IntersectionObserver(function(e,n){e.forEach(function(e){e.isIntersecting&&(e.target.classList.add("is-in-view"),n.unobserve(e.target))})},{root:null,rootMargin:"0px",threshold:.2});document.querySelectorAll(".recover-block").forEach(function(n){e.observe(n)})});
